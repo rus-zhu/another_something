@@ -1,0 +1,4 @@
+URL=jdbc:postgresql://localhost:5432/order-service
+USERNAME=ruszhu
+PASSWORD=password
+DRIVER=org.postgresql.Driver
