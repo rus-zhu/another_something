@@ -31,3 +31,7 @@ bin/
 =======
 .idea/*
 target/*
+<<<<<<< HEAD
+=======
+/src/main/assets/
+>>>>>>> 9843f54 (add dotenv and configure it)
