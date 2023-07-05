@@ -1,0 +1,15 @@
+version: "3.0"
+
+services:
+  postgres-order:
+    image: postgres
+    environment:
+      POSTGRES_DB: order-service
+      POSTGRES_USER: ruszhu
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+    volumes:
+      - ./postgres-order:/data/postgres
+    ports:
+      - "5432:5432"
+    restart: always
