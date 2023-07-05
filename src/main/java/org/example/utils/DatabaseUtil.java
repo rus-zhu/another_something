@@ -1,4 +1,4 @@
-package org.example.repo;
+package org.example.utils;
 
 import org.example.config.DotenvConfig;
 
