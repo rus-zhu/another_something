@@ -1,8 +1,8 @@
 package org.example.repo.impl;
 
 import org.example.model.User;
-import org.example.repo.DatabaseUtil;
 import org.example.repo.UserRepo;
+import org.example.utils.DatabaseUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
