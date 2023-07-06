@@ -14,8 +14,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-<<<<<<< HEAD
-=======
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -45,5 +43,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
->>>>>>> 615ec35 (add dotenv and configure it)
 </project>

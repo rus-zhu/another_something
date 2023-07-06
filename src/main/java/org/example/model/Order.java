@@ -12,9 +12,9 @@ public class Order {
     public Order() {
     }
 
-    public Order(int id, LocalDateTime created_at, int user_id, int product_id) {
+    public Order(int id, int user_id, int product_id) {
         this.id = id;
-        this.created_at = created_at;
+        this.created_at = LocalDateTime.now();
         this.user_id = user_id;
         this.product_id = product_id;
     }
